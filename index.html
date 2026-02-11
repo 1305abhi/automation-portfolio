@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abhinandan Tiwari | Automation Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grid-glow"></div>
+<div class="container">
+
+    <!-- HERO -->
+    <section class="hero box">
+        <h1>ABHINANDAN TIWARI</h1>
+        <h2>AUTOMATION-FOCUSED QUALITY ENGINEER</h2>
+        <p>I build reliable automation that protects production releases.</p>
+
+        <div class="buttons">
+            <a href="#framework" class="btn">VIEW FRAMEWORK</a>
+            <a href="#contact" class="btn secondary">CONTACT</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="box">
+        <h2>ABOUT</h2>
+        <p>Junior Software Tester since 2025</p>
+        <ul>
+            <li>Cross-platform release validation</li>
+            <li>Authentication & messaging workflows</li>
+            <li>Stage and production testing</li>
+        </ul>
+
+        <div class="highlight">
+            I validate how systems behave under real-world conditions.
+        </div>
+    </section>
+
+    <!-- CAPABILITIES -->
+    <section class="grid">
+        <div class="card box">
+            <h3>TESTING</h3>
+            <ul>
+                <li>Functional</li>
+                <li>Regression</li>
+                <li>Release Validation</li>
+            </ul>
+        </div>
+
+        <div class="card box lavender">
+            <h3>AUTOMATION</h3>
+            <ul>
+                <li>Selenium WebDriver</li>
+                <li>Java Frameworks</li>
+                <li>Page Object Model</li>
+            </ul>
+        </div>
+
+        <div class="card box pink">
+            <h3>QA STRATEGY</h3>
+            <ul>
+                <li>Smoke vs Regression</li>
+                <li>Negative Testing</li>
+                <li>Edge Case Mapping</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FRAMEWORK -->
+    <section id="framework" class="box">
+        <h2>SELENIUM TEST FRAMEWORK</h2>
+        <p>Page Object Model architecture with modular test structure.</p>
+        <ul>
+            <li>Authentication coverage</li>
+            <li>Form validation testing</li>
+            <li>Reusable components</li>
+        </ul>
+
+        <a href="#" class="btn">VIEW ON GITHUB</a>
+    </section>
+
+    <!-- TEST STRATEGY -->
+    <section class="box yellow">
+        <h2>TEST STRATEGY</h2>
+        <ul>
+            <li>Layered smoke and regression structure</li>
+            <li>Negative scenario mapping</li>
+            <li>Cross-platform validation approach</li>
+            <li>Release sign-off checklist</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="box">
+        <h2>CONTACT</h2>
+        <p>Let’s build reliable systems.</p>
+        <div class="buttons">
+            <a href="https://www.linkedin.com/in/abhinandantiwari/" class="btn">LINKEDIN</a>
+            <a href="mailto:tiwariabhinandan99@gmail.com" class="btn secondary">EMAIL</a>
+        </div>
+    </section>
+
+</div>
+<script>
+const glow = document.querySelector('.grid-glow');
+
+document.addEventListener('mousemove', (e) => {
+    glow.style.setProperty('--x', e.clientX + 'px');
+    glow.style.setProperty('--y', e.clientY + 'px');
+});
+
+</script>
+
+</body>
+</html>
